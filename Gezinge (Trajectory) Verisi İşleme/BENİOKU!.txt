@@ -1,0 +1,49 @@
+Gezinge Verisi Ýþleme Projesi
+
+Bu projede;
+	1- Trajectory verisi yumuþatma iþlemi için Ramer Douglas Pecker algoritmasý kullanýlmýþtýr.
+	2- Java soket programlama kullanýlarak sunucu-istemci mimarisi gerçekleþtirilmiþtir.
+
+Projeyi çalýþtýrmak için
+	1- 3 program da netbeans ide'sinde derlenerek açýlabilir.
+	2- Ýstemci bilgisayarda çalýþtýrýlacak program gezinge_istemci dir. Bu programýn kodunda gerekli yere sunucu bilgisayarýn yerel ip'si yazýlmalýdýr.
+	Bu program ilk kez çalýþtýrýlmak istendiði zaman gerekli java paketleri projeye eklenmelidir.
+	3- Sunucu bilgisayarda çalýþtýrýlacak 2 program gezinge_sunucu_indirgeme ve gezinge_sunucu_sorgu dur. 
+	4- Tüm programlarý çalýþtýrýnýz. Sunucu ve Ýstemci bilgisayarýn ayný yerel aða baðlý olduðuna emin olun. Önce program gezinge_sunucu_indirgeme den
+	sunucuyu baþlatýn. Sonra istemci'den hamveriyi seçin. Ýstemciden dikdörtgensel sorgu için gerekli lat long bilgilerini girin. Ardýndan gönder 
+	butonuna týklayýn. Sorgu servisinin çalýþmasý için gezinge_sunucu_sorgu'dan sorgu cevabýný gönderin. Ýndirgenmiþ veri ve sorgu yanýtý istemciye
+	gönderilmiþ olacak. Yapýlan iþlemi görmek için istemciden 'çiz' butonuna týklayýn.
+
+
+Gerekli Java paketlerinin gezinge_istemciye yüklenmesi
+
+	1- Netbeans ide'sinden projeye sað týklayarak 'properties' e týklayýn. Ardýndan Library - Add JAR/Folder a týklayýn.
+	2- "Gezing_Ýstemci\istemci dosyalar\google-api-java-client\libs" klasörünün içindeki tüm .jar dosyalarýný ekleyin.
+	3- "Gezing_Ýstemci\istemci dosyalar\jx browser\lib" klasörünün içindeki tüm .jar dosyalarýný ekleyin.
+
+
+Dikdörtgensel sorgu için gerekli lat - long bilgilerinin girilmesi.
+
+	1- Sorgu yapmak için dikdörtgensel bir alan belirlemelisiniz. Böylece bu alanýn içerisinde kalan noktalar programda çýktý olarak verilir.
+	2- Bunun için gezinge_istemci yi ilk açtýðýnýzda ilgili alana minimum enlem,minimum boylam,maximum enlem,maximum boylam þeklinde giriþ yapmalýsýnýz.
+	3- Örnek. 35.0000,37.0000,42.0000,45.0000
+
+
+Kodda belirtilen bazý lokasyonlarýn deðiþtirilmesi
+
+	Kodlarda gelen_ham_veri gelen_indirgenmis_veri ve sinirlar dosyalarý için bazý lokasyonlar belirtilmiþtir. Bu dosyalar projelerin içindedir fakat
+	projeyi kendi bilgisayarýnýza indirdiðinizde lokasyonlarý deðiþebilir. Bunun için kodlarda ilgili kýsýmlarý kendi bilgisayarýnýzdaki lokasyonlara
+	göre deðiþtirmeniz gerekebilir.
+
+
+Örnek ham veri
+
+	Örnek ham veri dosyasý "Gezing_Ýstemci\istemci dosyalar\Ham Veri.txt" lokasyonunda bulunmaktadýr. Buradan ulaþabilirsiniz.
+	
+
+	
+
+
+
+Projede amaçlanan kazanýmlar hakkýnda detaylý bilgi için bu sayfayý ziyaret edebilirsiniz.
+http://bilgisayar.kocaeli.edu.tr/files/19_proje-1-gezinge.pdf
