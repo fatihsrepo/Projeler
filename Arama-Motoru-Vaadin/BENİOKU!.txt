@@ -1,0 +1,16 @@
+Proje Vaadin framework ile geliþtirilmiþ Arama Motoru projesidir.
+
+Projeyi çalýþtýrmak için;
+	1- Web sitesini Apache Tomcat serveri üzerinde çalýþtýrabilirsiniz. target\Arama_Motoru-1.0-SNAPSHOT.war klasörünü Tomcat webapps lokasyonuna
+	taþýyarak siteyi localhostta çalýþtýrabilirsiniz. Tarayýcýnýza http://localhost:8181/Arama_Motoru-1.0-SNAPSHOT/ yazarak sayfaya ulaþabilirsiniz.
+	2- Eclipse ide'sinde projeyi açabilirsiniz. 
+
+Siteyi kullanmak için;
+	1- URL kýsmýna arama yapmak istediðiniz sayfa url'sini girin. Kelime kýsmýna da sayfada aramak istediðiniz kelimeyi girin. Bir url'de en fazla 3
+	kelime arayabilirsiniz. Ve ayný anda en fazla 3 URL de arama yapabilirsiniz. Mesela 3 url'de 3 kelime aramak için URL kýsmýna url1,url2,url3 þeklinde
+	girdi yapmalýsýnýz. Kelime kýsmýna da kelime1,kelime2,kelime3 þeklinde girdi yapmalýsýnýz. Böylece 3 kelime de her bir url de tek tek aranýr ve
+	o url de kaçar adet geçtikleri çýktý olarak verilir ve url ler buna göre skorlanarak sýralanýr.
+	
+	2- Ana URL'leri ara butonuna týkladýðýnýzda sadece girdiðiniz url'ler de arama yapýlýr. Alt URL'lerle ara butonuna týkladýðýnýzda girdiðiniz url'de
+	ve o url'nin HTML içeriðinde geçen ve yine ayný sitede bir sayfaya yönlendiren linkler üzerinde arama yapýlýr. Tüm linkler aðaç yapýsý þeklinde 
+	gösterilir ve skorlanarak sýralanýr.

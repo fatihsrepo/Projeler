@@ -1,0 +1,26 @@
+Bu projede;
+	1- dijkstra algoritmasý ile grafta iki nokta arasý en kýsa yol ve güzergah bulma 
+	2- haversine formülü ile lat long bilgileri bilinen iki nokta arasý uzaklýk bulma
+	3- rakým, lat, long bilgilerini kullanarak iki nokta arasý eðim bulma 
+iþlemleri yapýlmýþtýr.
+
+Programý çalýþtýrmak için
+	1- /dist/Proje_Zeplin.jar lokasyonundan doðrudan çalýþtýrabilirsiniz.
+	2- Projeyi Netbeans ide'sinde derleyebilirsiniz.
+
+Programý kullanmak için
+	1- Hedef þehir, kaynak þehir ve yolcu sayýsýný girdikten sonra 'git' butonuna týklarsanýz iki þehir arasýnda girdiðiniz kadar yolcu sayýsý
+	ile sefer düzenlenebilir mi kontrol eder ve sefer varsa güzergahý haritada çizdirir. Hedef ve kaynak sehirleri Türkçe karakter kullanmadan 
+	ve ilk harflerini büyük olarak girmelisiniz. (örnek. Ankara, Eskisehir, Mugla, Tekirdag). Yolcu sayýsýný rakam kullanarak girmelisiniz.
+	(örnek. 5, 6, 7, ..... , 53, 54, 55). Ýki nokta arasýndaki hareketin tüm detaylarý proje lokasyonunda 'Hareket_Detay' isimli doyaya yazdýrýlýr.
+
+	2- Hedef ve kaynak þehirleri girdikten sonra 'Problem 1' butonuna týklarsanýz iki nokta arasýnda sabit ücretle kaç yolcu ile sefer düzenlersem
+	maksimum karý elde ederim problemine cevap alýrsýnz. En iyi sonuç haritada çizdirilir.
+
+	3- Hedef ve kaynak þehirleri girdikten sonra 'Problem 2' butonuna týklarsanýz iki nokta arasýnda 10, 20, 30, 40, 50 yolcular için kiþi baþý kaç
+	lira ücret alýrsam 50% kar elde ederim problemine cevap alýrsýnýz.
+
+Projede amaçlanan kazanýmlar hakkýnda daha fazla bilgi edinmek için bu linki ziyaret edebilirsiniz.
+http://bilgisayar.kocaeli.edu.tr/files/99_proje1-zeplin.pdf
+
+
