@@ -1,0 +1,17 @@
+Araç Yönetim Sistemi
+
+
+Projeyi çalýþtýrmak için hangi programlar gerekli: Netbeans
+
+
+
+Projeyi çalýþtýrmak için uygulanacak adýmlar:
+
+1) Proje klasöründeki dist klasörünün içindeki .jar uzantýlý dosyadan
+ direk programa eriþebilirsiniz.
+
+2) Ya da projeyi netbeans idesinde derleyip açabilirsiniz
+
+3) Proje arayüzü son derece anlaþýlýrdýr. Programý açtýktan sonra kolayca
+   kullanabilirsiniz.	
+

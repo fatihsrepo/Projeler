@@ -1,0 +1,61 @@
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\bin\Debug\deneme1.exe
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\bin\Debug\deneme1.pdb
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.exe
+C:\Users\MERT\Desktop\yazlab\deneme1\deneme1\obj\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\deneme1\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\LocalUser\Desktop\deneme1\deneme1\bin\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\deneme1\deneme1\bin\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.csproj.CoreCompileInputs.cache
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\deneme1\deneme1\obj\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\bin\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\bin\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.csproj.CoreCompileInputs.cache
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\New folder\deneme1\deneme1\obj\Debug\deneme1.OlcekForm.resources
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.exe
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.pdb
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\bin\Debug\deneme1.exe
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\bin\Debug\deneme1.pdb
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.OlcekForm.resources
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\MERT\Desktop\denemeler\New folder\New folder\deneme1\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.exe
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.pdb
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\bin\Debug\deneme1.exe
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\bin\Debug\deneme1.pdb
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.OlcekForm.resources
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\MERT\Desktop\görüntü editörü\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\bin\Debug\deneme1.exe.config
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\bin\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\bin\Debug\deneme1.pdb
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.csprojResolveAssemblyReference.cache
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.Form1.resources
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.OlcekForm.resources
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.Properties.Resources.resources
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.csproj.GenerateResource.Cache
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.csproj.CoreCompileInputs.cache
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.exe
+C:\Users\LocalUser\Desktop\New folder (3)\deneme1\obj\Debug\deneme1.pdb

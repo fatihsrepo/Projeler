@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480159976 source:c:\users\fatih\desktop\proje\projepaint\main.cpp
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<math.h>
+	<windows.h>
+
