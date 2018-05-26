@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <title>Messenger</title>
+        <style>
+            
+            body{
+                background-image: url("http://arkipel.org/wp-content/uploads/2016/06/TT16s.jpg");
+           }
+            
+            #nickAlani{
+                height: 200px;
+                width: 400px;
+
+                position: fixed;
+                top: 35%;
+                left: 50%;
+                margin-top: -100px;
+                margin-left: -200px;
+            }   
+            
+            #messenger{
+                font-size:small;
+                height:520px;
+                width: 400px;
+            }
+            
+            #icerikAlani{
+                display: none;
+            }
+            
+            #messengerAlani{
+                background-color:lightslategray;
+                margin-top:2%;
+                margin-left:2%;
+                float: left;
+                border: 2px #000 solid;
+            }
+
+            #kullaniciAlani{
+                font-size: larger;
+                font-weight: bold;
+                margin-left:1%;
+                margin-top:2%;
+                float: left;
+            }
+
+            #kullaniciipAlani{
+                font-size: larger;
+                font-weight: bold;
+                margin-left:1%;
+                margin-top:2%;
+                float: left;
+            }
+            
+            #targetuserform{
+                margin-left:1%;
+            }
+
+             #disconnect{
+                margin-left:1%;
+                margin-top:2%; 
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 3px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            #mesaj-gönder{
+                margin-left:1%;
+            }
+
+            .hata{
+                color:red;
+            }
+
+            .yeni mesaj{
+                color: white;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <div id="nickAlani">
+            <p style="color:black; font-size: x-large",>GİRİŞ</p>
+            <p style="color: white", id="nickHatasi"></p>
+            <form id="setNick">
+                <input size="35" id="nickname"></input>
+                <input type="submit"></input>
+
+            </form>
+
+            <p style="color:black; font-size: x-large",>KAYIT</p>
+            <p style="color: white", id="kayitError"></p>
+            <p style="color: white", id="kayitBasarili"></p>
+            <form id="kayit">
+                <input size="35" id="yenikayit"></input>
+                <input type="submit"></input>
+            </form>
+        </div>
+            
+        
+        <div id="icerikAlani">
+            <div id="messengerAlani">
+                <div id="messenger"></div>
+                
+                <form id="targetuserform">
+                    <input size="15" id="targetuser" ><span style="color:#83f57f;">  HEDEF KULLANICI</span></input>
+                </form>
+                
+                <form id="mesaj-gönder">
+                    <input size="40" id="mesaj"></input>
+                    <input type="submit"></input>
+                </form>
+            </div>
+            <div id="kullaniciAlani">
+                <span style="background:#83f57f", id="kullanicilar"></span>
+            </div>
+            <div id="kullaniciipAlani">
+                <span style="background:#83f57f", id="ips"></span>
+            </div>
+            <button id="disconnect">OFFLİNE OL</button>
+
+        </div>    
+        
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            jQuery(function($){
+                var socket = io.connect();
+                var $kayitBox = $('#yenikayit');
+                var $kayitForm = $('#kayit');
+                var $kayitError = $('#kayitError');
+                var $kayitBasarili = $('#kayitBasarili');
+                var $targetuserBox = $('#targetuser');
+                var $nickForm = $('#setNick');
+                var $nickHatasi = $('#nickHatasi');
+                var $nickBox = $('#nickname');
+                var $kullanicilar = $('#kullanicilar');
+                var $ips = $('#ips');
+                var $messageForm = $('#mesaj-gönder');
+                var $messageBox = $('#mesaj');
+                var $messenger = $('#messenger');
+
+                $nickForm.submit(function(e){
+                    e.preventDefault();
+                    socket.emit('giris', $nickBox.val(), function(data){
+                        if(data){
+                            $('#nickAlani').hide();
+                            $('#icerikAlani').show();
+                        } else{
+                            $nickHatasi.html('HATA! <br/>'
+                            +'1- Kayit bulunamadı. <br/>'
+                            +'2- Bu bilgisayarda zaten aktif bir oturum var. Aynı bilgisayarda 2 farklı aktif oturuma izin verilmemektedir.');
+                        }
+                    });
+                    
+                    $nickBox.val('');
+                });
+
+                $kayitForm.submit(function(e){
+                    e.preventDefault();
+                    socket.emit('yeni kayit', $kayitBox.val(), function(data){
+                        
+                        if(data){
+                            $kayitError.html('');
+                            $kayitBasarili.html('Kayit oldunuz. Bu bilgisayardan kullanıcı adınız ile giriş yapabilirsiniz.');
+                        } else{
+                            $kayitBasarili.html('');
+                            $kayitError.html('Bu kullanıcı adı ile daha önce kayıt olunmuş. Eğer kullanıcı adının sahibi sizseniz KAYIT OLDUĞUNUZ BİLGİSAYARDAN giriş yapabilirsiniz.');
+                        }
+                    });
+                    $kayitBox.val('');
+                });    
+
+                //offline olma uyarısı
+                socket.on('offlineuyari', function(data) {
+                    alert(data + " offline oldu"); 
+                });
+
+                //birisi giriş yapınca veya çıkınca nickname listesini güncelliyoruz
+                socket.on('usernames', function(data) {
+                    $kullanicilar.html(data.join("<br/>")); 
+                });
+
+                //birisi giriş yapınca veya çıkınca ip listesini güncelliyoruz
+                socket.on('ips', function(data) {
+                    $ips.html( data.join("<br/>")); 
+                });
+
+                $messageForm.submit(function(e){
+                    e.preventDefault();
+                    
+                    socket.emit('send targetuser', $targetuserBox.val());
+                    
+                    socket.emit('mesaj gönder', $messageBox.val(), function(data){
+                        $messenger.append( '<span class="hata"><b>' + data + "</span><br/>");  
+                    });
+                    
+                    $messageBox.val('');
+                    
+                });         
+
+                socket.on('yeni mesaj', function(data){
+                    $messenger.append( '<span class="yeni mesaj"><b>' + "from " + data.nick + ' to ' + data.targetnick +': </b>' 
+                        + '<font color="white">' + data.msg + "</font></span><br/>");
+                });
+
+                $('#disconnect').click(function(){
+                    alert('offline oldunuz');
+                    $('#nickAlani').show();
+                    $('#icerikAlani').hide();                    
+                    socket.disconnect();
+                    //tekrar giriş yapabilmek için bağlanıyoruz.
+                    socket.connect();
+                });
+            });
+        
+        </script>
+    </body>
+</html>
